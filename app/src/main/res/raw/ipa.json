@@ -1,0 +1,442 @@
+[
+  {
+    "digraph":  "m",
+    "symbol": "m",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "k",
+    "symbol": "k",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "y",
+    "symbol": "j",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "p",
+    "symbol": "p",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "w",
+    "symbol": "w",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "n",
+    "symbol": "n",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "s",
+    "symbol": "s",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "t",
+    "symbol": "t",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "b",
+    "symbol": "b",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "l",
+    "symbol": "l",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "hh",
+    "symbol": "h",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "g",
+    "symbol": "g",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "ng",
+    "symbol": "ŋ",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "d",
+    "symbol": "d",
+    "isVowel": false,
+    "rarity": 0
+  },
+  {
+    "digraph":  "i",
+    "symbol": "i",
+    "isVowel": true,
+    "rarity": 0
+  },
+  {
+    "digraph":  "a",
+    "symbol": "a",
+    "isVowel": true,
+    "rarity": 0
+  },
+  {
+    "digraph":  "oo",
+    "symbol": "u",
+    "isVowel": true,
+    "rarity": 0
+  },
+  {
+    "digraph":  "oh",
+    "symbol": "o",
+    "isVowel": true,
+    "rarity": 0
+  },
+  {
+    "digraph":  "ei",
+    "symbol": "e",
+    "isVowel": true,
+    "rarity": 0
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "digraph":  "rr",
+    "symbol": "r",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "f",
+    "symbol": "f",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "ny",
+    "symbol": "ɲ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "ch",
+    "symbol": "t̠ʃ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "-h",
+    "symbol": "ʔ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "sh",
+    "symbol": "ʃ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "z",
+    "symbol": "z",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "dj",
+    "symbol": "d̠ʒ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "v",
+    "symbol": "v",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "r",
+    "symbol": "ɾ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "ts",
+    "symbol": "ts",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "xh",
+    "symbol": "x",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "t",
+    "symbol": "t",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "zh",
+    "symbol": "ʒ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "gh",
+    "symbol": "ɣ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "ky",
+    "symbol": "c",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "n",
+    "symbol": "ɳ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "gb",
+    "symbol": "ɡb",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "kp",
+    "symbol": "kp",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "gy",
+    "symbol": "ɟ",
+    "isVowel": false,
+    "rarity": 1
+  },
+  {
+    "digraph":  "eh",
+    "symbol": "ɛ",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "uh",
+    "symbol": "ə",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "eu",
+    "symbol": "ʊ",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "oh",
+    "symbol": "ɔ",
+    "isVowel": true,
+    "rarity": 1
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "digraph":  "dz",
+    "symbol": "dz",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "vw",
+    "symbol": "β",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "rh",
+    "symbol": "ɻ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "wb",
+    "symbol": "ɓ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "mb",
+    "symbol": "mb",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "nd",
+    "symbol": "nd",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "ngh",
+    "symbol": "ŋɡ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "hd",
+    "symbol": "ɖ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "kh",
+    "symbol": "q",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "td",
+    "symbol": "ɗ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "hr",
+    "symbol": "χ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "rd",
+    "symbol": "ɽ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "th-",
+    "symbol": "ð",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "rv",
+    "symbol": "ʁ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "hf",
+    "symbol": "ɸ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "sch",
+    "symbol": "ɬ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "cy",
+    "symbol": "cç",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "th",
+    "symbol": "θ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "tc",
+    "symbol": "ʈʂ",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "gm",
+    "symbol": "ŋm",
+    "isVowel": false,
+    "rarity": 2
+  },
+  {
+    "digraph":  "ae",
+    "symbol": "æ",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "uw",
+    "symbol": "ɯ",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "uy",
+    "symbol": "y",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "uo",
+    "symbol": "ʌ",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "oe",
+    "symbol": "œ",
+    "isVowel": true,
+    "rarity": 1
+  },
+  {
+    "digraph":  "ooh",
+    "symbol": "ɤ",
+    "isVowel": true,
+    "rarity": 1
+  }
+]

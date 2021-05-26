@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneratorFragment">
+
+    <Button
+        android:id="@+id/button_generator_generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Generate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <TextView
+        android:id="@+id/textView_generator_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/switch_generator_protolang"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <Switch
+        android:id="@+id/switch_generator_protolang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Switch"
+        app:layout_constraintBottom_toTopOf="@+id/textView_generator_editlanguage"
+        app:layout_constraintTop_toBottomOf="@+id/textView_generator_"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <TextView
+        android:id="@+id/textView_generator_editlanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintTop_toBottomOf="@+id/switch_generator_protolang"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <Button
+        android:id="@+id/button_generator_switchmodes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline11" />
+
+    <Spinner
+        android:id="@+id/spinner_iterator_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_generator_"
+        app:layout_constraintStart_toEndOf="@+id/textView_generator_"
+        app:layout_constraintTop_toTopOf="@+id/textView_generator_" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="32dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="32dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
