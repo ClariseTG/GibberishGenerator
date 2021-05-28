@@ -12,7 +12,7 @@ class Step(
 
 ) {
     //function that applies the step to a word
-    fun mutateWord(w : MutableList<Phoneme>, lang : Language) : MutableList<Phoneme> {
+    fun mutateWord(w : MutableList<Phoneme>, canEndIn : String, phonemes : MutableList<Phoneme>) : MutableList<Phoneme> {
         val wordLength = w.size - 1
         var word = w
         val tM = if (condition == "before"){-1} else if (condition == "after"){1} else {0} //target Modifier
@@ -113,12 +113,12 @@ class Step(
 
         //delete the last phoneme if it isnt the correct type
         //add instead if there arent enough phonemes total
-        if (lang.canEndIn == "C" && word[wordLength].isVowel){
+        if (canEndIn == "C" && word[wordLength].isVowel){
             if (wordLength > 1){
                 word.removeAt(wordLength)
             } else {
                 var tempVowelList = emptyList<Phoneme>().toMutableList()
-                for (phoneme in lang.phonemes){
+                for (phoneme in phonemes){
                     if (phoneme.isVowel) {tempVowelList.add(phoneme)}
                 }
 

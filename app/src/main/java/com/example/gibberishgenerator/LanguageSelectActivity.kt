@@ -15,11 +15,6 @@ import com.google.gson.reflect.TypeToken
 
 val TAG = "LanguageSelectActivity"
 
-//master list of all of the languages the user has saved
-var langMasterList : MutableList<Language> = emptyList<Language>().toMutableList()
-lateinit var validPhonemes : List<Phoneme>
-
-
 class LanguageSelectActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -49,7 +44,6 @@ class LanguageSelectActivity : AppCompatActivity() {
                     Step("is","replace", arrayOf(validPhonemes[6]), validPhonemes[3])
                 ).toMutableList(),
                 8, 5, 2,
-                5,
                 "CV",
                 "V"
             )
@@ -63,7 +57,6 @@ class LanguageSelectActivity : AppCompatActivity() {
                     Step("is","replace", arrayOf(validPhonemes[2]), validPhonemes[3])
                 ).toMutableList(),
                 8, 5, 2,
-                5,
                 "CVC",
                 "C"
             )
@@ -90,5 +83,11 @@ class LanguageSelectActivity : AppCompatActivity() {
         //new language button
 
 
+    }
+
+    companion object LanguageSelect {
+        //master list of all of the languages the user has saved
+        var langMasterList : MutableList<Language> = emptyList<Language>().toMutableList()
+        lateinit var validPhonemes : List<Phoneme>
     }
 }

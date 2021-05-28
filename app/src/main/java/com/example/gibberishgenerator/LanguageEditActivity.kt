@@ -18,5 +18,8 @@ class LanguageEditActivity : AppCompatActivity() {
     //set operation details
 
 
+    //TODO: Making steps
+
+
 
 }

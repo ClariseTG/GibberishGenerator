@@ -31,37 +31,29 @@
         android:id="@+id/textView_generator_"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Length: "
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/switch_generator_protolang"
-        app:layout_constraintTop_toTopOf="@+id/guideline9"
-        tools:layout_editor_absoluteX="48dp" />
-
-    <Switch
-        android:id="@+id/switch_generator_protolang"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:switchTextAppearance="@style/TextAppearance.AppCompat.Large"
-        android:text="Switch"
         app:layout_constraintBottom_toTopOf="@+id/textView_generator_editlanguage"
-        app:layout_constraintTop_toBottomOf="@+id/textView_generator_"
-        tools:layout_editor_absoluteX="50dp" />
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/textView_generate_protoWord" />
 
     <TextView
         android:id="@+id/textView_generator_editlanguage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Edit Language..."
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintTop_toBottomOf="@+id/switch_generator_protolang"
-        tools:layout_editor_absoluteX="48dp" />
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/textView_generator_" />
 
     <Button
         android:id="@+id/button_generator_switchmodes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toStartOf="@+id/guideline11" />
 
@@ -78,19 +70,45 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="32dp" />
+        app:layout_constraintGuide_percent="0.08" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_end="32dp" />
+        app:layout_constraintGuide_percent="0.92214113" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="32dp" />
+        app:layout_constraintGuide_percent="0.9562243" />
+
+    <TextView
+        android:id="@+id/textView_generate_finalWord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Final"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/textView_generate_protoWord"
+        app:layout_constraintEnd_toStartOf="@+id/guideline11"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <TextView
+        android:id="@+id/textView_generate_protoWord"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Proto"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/textView_generator_"
+        app:layout_constraintEnd_toStartOf="@+id/guideline11"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/textView_generate_finalWord" />
 </androidx.constraintlayout.widget.ConstraintLayout>
